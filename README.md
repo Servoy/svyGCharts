@@ -1,12 +1,6 @@
 # Google Charts component
 
-NGClient component package of all kinds of 'extra' bootstrap components. Current components are: 
-
-* Navbar: see http://getbootstrap.com/components/#navbar
-* Breadcrumbs: see http://getbootstrap.com/components/#breadcrumbs
-* Input group: see http://getbootstrap.com/components/#input-groups
-* Button group: see http://getbootstrap.com/components/#btn-groups
-* Badges: see http://getbootstrap.com/components/#badges
+A simple wrapper component for the [Google Charts api](https://developers.google.com/chart/). 
 
 # Getting started
 
