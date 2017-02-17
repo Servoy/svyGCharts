@@ -1,0 +1,12 @@
+{
+    "name":"googlecharts",
+    "displayName":"Google Charts",
+    "packageType": "Web-Component",
+    "icon": "https://github.com/Servoy/svyGCharts/wiki/images/svygooglecharts-icon.png",
+    "description": "A component to create Google charts",
+    "wikiUrl": "https://github.com/Servoy/svyGCharts/wiki",
+    "sourceUrl" : "https://github.com/Servoy/svyGCharts",
+    "releases" : [{
+    	"version":"1.0.0",
+    	"url":"https://github.com/Servoy/svyGCharts/releases/download/v1.0.0/svygooglecharts.zip"}]
+}
