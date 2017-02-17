@@ -1,0 +1,12 @@
+<div 
+	google-chart 
+	id={{::model.svyMarkupId}} 
+	class="svy-google-charts {{model.styleClass}}"
+	chart="chartInternal" 
+	agc-on-select="onSelect(selectedItems)"
+	agc-on-ready="onReady(chartWrapper)"
+	agc-on-error="onError(error)"
+	agc-on-mouseover="mouseoverHandler(row, column)"
+	agc-on-mouseout="mouseoutHandler(row,column)"
+	>
+</div>
