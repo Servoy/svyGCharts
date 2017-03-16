@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: svygooglecharts
 Bundle-Name: Google Charts
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.1
 Package-Type: Web-Component
 
 Name: svygooglecharts/svygooglecharts.spec

@@ -306,4 +306,9 @@ angular
 			controller: function($scope, $element, $attrs) { },
 			templateUrl: 'svygooglecharts/svygooglecharts/svygooglecharts.html'
 		};
-	}])
+	}]).value('googleChartApiConfig', {
+        version: '1.1',
+        optionalSettings: {
+            packages: ['corechart'], language: navigator.locale ? navigator.locale.split('-')[0] : 'en'
+        }
+    })
