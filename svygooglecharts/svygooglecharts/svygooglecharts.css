@@ -1,5 +1,7 @@
 /* absolute layout only */
 .svy-wrapper > * > .svy-google-charts {
+	width: 100%;
+	height: 100%;
 }
 
 /* class selector */
