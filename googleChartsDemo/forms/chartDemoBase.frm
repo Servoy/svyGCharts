@@ -124,18 +124,6 @@ uuid:"D73BCE26-FF30-4C83-AB8D-B28409ADE833"
 },
 {
 location:"280,15",
-name:"btnClearChart",
-onActionMethodID:"76B01F05-2335-4EDE-B314-BF6534CCEF2B",
-onDoubleClickMethodID:"-1",
-onRightClickMethodID:"-1",
-size:"140,30",
-styleClass:"btn btn-danger",
-text:"Clear chart",
-typeid:7,
-uuid:"DBAA754D-C036-4EF3-8FFD-1A3D0069E487"
-},
-{
-location:"130,15",
 name:"btnShowDocs",
 onActionMethodID:"F5A25EBA-15B4-40B4-A4BA-0C265AB960DB",
 onDoubleClickMethodID:"-1",

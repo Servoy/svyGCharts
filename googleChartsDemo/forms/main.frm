@@ -47,13 +47,6 @@ typeid:15,
 uuid:"5714848D-210A-4ACE-B9FE-913B8597791E"
 },
 {
-containsFormID:"251631E0-BEF5-46F3-B719-258A616DF575",
-location:"205,329",
-text:"Timeline",
-typeid:15,
-uuid:"5DA9DB8E-E0DF-4FE9-AB84-DB3E729EEEF2"
-},
-{
 containsFormID:"AEC9BAED-81F9-4E55-AD61-146D2C996E4F",
 location:"178,308",
 text:"Interval",
