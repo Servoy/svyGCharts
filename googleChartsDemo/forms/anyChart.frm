@@ -1,0 +1,26 @@
+customProperties:"formComponent:false",
+extendsID:"1CB11EFD-5ABB-445A-87C0-08A3AB0C2611",
+items:[
+{
+labelFor:"chartType",
+location:"605,14",
+name:"chartType_label",
+size:"140,30",
+text:"Chart type",
+transparent:true,
+typeid:7,
+uuid:"20B86D8E-DDBE-4988-A4F4-5977CF311302"
+},
+{
+dataProviderID:"chartType",
+location:"755,14",
+name:"chartType",
+size:"140,30",
+text:"Charttype",
+typeid:4,
+uuid:"6F65E7EE-B8A7-422D-A2D6-FA5F7504CEAF"
+}
+],
+name:"anyChart",
+typeid:3,
+uuid:"1DDDA20B-ABCC-484E-8AF4-9305561D2F31"
