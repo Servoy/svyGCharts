@@ -5,18 +5,19 @@
 	"definition": "svygooglecharts/svygooglecharts/svygooglecharts.js",
 	"icon": "svygooglecharts/svygooglecharts/images/svygooglecharts-icon.png",
 	"libraries": [
-		{"name":"ng-google-chart.js", "version":"0.1.0", "url":"svygooglecharts/svygooglecharts/js/ng-google-chart.js", "mimetype":"text/javascript"},
+		{"name":"ng-google-chart.min.js", "version":"1.0.0", "url":"svygooglecharts/svygooglecharts/js/ng-google-chart.min.js", "mimetype":"text/javascript"},
 		{"name":"svygooglecharts.css", "version":"1.0.0", "url":"svygooglecharts/svygooglecharts/svygooglecharts.css", "mimetype":"text/css"}		
 	],
 	"model":
 	{
-		"chartSpec"					: { "type": "object", "pushToServer": "deep", "tags" : { "scope": "private" } },
-		"size" 						: { "type" :"dimension",  "default" : {"width": 600, "height": 400} }, 
-		"location" 					: { "type": "point" },
-		"styleClass"				: { "type": "styleclass"},
-		"visible"					: { "type": "visible" },
-		"enabled"					: { "type": "enabled", "blockingOn": false, "default": true, "for": ["onSelect", "onDoubleClick", "onMouseOver", "onMouseOut"] },
-		"readOnly" 					: { "type": "protected", "blockingOn": true, "default": false, "for": ["onSelect", "onDoubleClick", "onMouseOver", "onMouseOut"], "tags": {"scope":"runtime"} }
+		"chartSpec"					: { "type" : "object", "pushToServer": "deep", "tags" : { "scope": "private" } },
+		"chartType"					: { "type" : "string", "default": "null" },
+		"size" 						: { "type" : "dimension",  "default" : {"width": 600, "height": 400} }, 
+		"location" 					: { "type" : "point" },
+		"styleClass"				: { "type" : "styleclass"},
+		"visible"					: { "type" : "visible" },
+		"enabled"					: { "type" : "enabled", "blockingOn": false, "default": true, "for": ["onSelect", "onDoubleClick", "onMouseOver", "onMouseOut"] },
+		"readOnly" 					: { "type" : "protected", "blockingOn": true, "default": false, "for": ["onSelect", "onDoubleClick", "onMouseOver", "onMouseOut"], "tags": {"scope":"runtime"} }
 	},
 	"api": {
 		"drawChart": {
@@ -24,20 +25,37 @@
 				{ "name": "type", "type": "string" },
 				{ "name": "data", "type": "object" },
 				{ "name": "options", "type": "object" }	
-			]
+			],
+			"delayUntilFormLoads": true,
+            "async": true
+		},
+		"draw": {
+			"parameters": [
+				{ "name": "options", "type": "object" }	
+			],
+			"delayUntilFormLoads": true,
+            "async": true
+		},
+		"clearChart": {
+			"delayUntilFormLoads": true,
+            "async": true
 		},
 		"setValue": {
 			"parameters": [
 				{ "name": "row", "type": "int" },
 				{ "name": "column", "type": "int" },
 				{ "name": "value", "type": "object" }	
-			]
+			],
+			"delayUntilFormLoads": true,
+            "async": true
 		},
 		"setSelection": {
 			"parameters": [
 				{ "name": "row", "type": "int" },
 				{ "name": "column", "type": "int" }
-			]
+			],
+			"delayUntilFormLoads": true,
+            "async": true
 		},
 		"getSelection": {
 			"parameters": [],
