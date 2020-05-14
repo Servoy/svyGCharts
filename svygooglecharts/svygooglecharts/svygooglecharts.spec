@@ -1,6 +1,7 @@
 {
 	"name": "svygooglecharts-svygooglecharts",
 	"displayName": "Google Charts",
+	"categoryName": "Visualization",
 	"version": 1,
 	"definition": "svygooglecharts/svygooglecharts/svygooglecharts.js",
 	"icon": "svygooglecharts/svygooglecharts/images/svygooglecharts-icon.png",
